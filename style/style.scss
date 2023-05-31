@@ -1,6 +1,76 @@
-@import './fonts';
-@import './reset';
-$mainFont: 'Inter', sans-serif;
+@import "./fonts";
+@import "./reset";
+$mainFont: "Inter", sans-serif;
+$wrapperWidth: 1200px;
 body {
+  font-family: $mainFont;
+}
+.header {
+  height: 76px;
+  &__wrapper {
+    justify-content: space-between;
+  }
+
+  &__logo-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__slogan {
     font-family: $mainFont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #1e1f1f;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__nav-link {
+    font-family: $mainFont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.007em;
+    color: #1e1f1f;
+  }
+
+  &__tel-link {
+    font-family: $mainFont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.007em;
+    color: #056b53;
+  }
+
+  &__btn {
+    font-family: $mainFont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.007em;
+    color: #ffffff;
+    padding: 8px 16px;
+    background: #056b53;
+    border-radius: 100px;
+  }
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: $wrapperWidth;
+  padding: 0 15px;
+  margin: 0 auto;
 }

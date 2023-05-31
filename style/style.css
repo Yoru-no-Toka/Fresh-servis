@@ -65,4 +65,69 @@ a {
 
 body {
   font-family: "Inter", sans-serif;
+}
+
+.header {
+  height: 76px;
+}
+.header__wrapper {
+  justify-content: space-between;
+}
+.header__logo-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.header__slogan {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #1e1f1f;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header__nav-link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.007em;
+  color: #1e1f1f;
+}
+.header__tel-link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.007em;
+  color: #056b53;
+}
+.header__btn {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.007em;
+  color: #ffffff;
+  padding: 8px 16px;
+  background: #056b53;
+  border-radius: 100px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
